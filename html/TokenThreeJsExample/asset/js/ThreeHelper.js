@@ -59,7 +59,8 @@ class ThreeHelper {
                     
                     var textureLoader = new THREE.TextureLoader();
                     textureLoader.setCrossOrigin("anonymous");
-                    var texture= textureLoader.load("asset/img/img6.jpg");
+                    var texture= textureLoader.load("./asset/img/img6.jpg");
+                    //https://picsum.photos/id/267/256/256
                     //var texture= textureLoader.load("https://unsplash.it/256");
                     console.log(texture);
                     // mesh is a group contains multiple sub-objects. Traverse and apply texture to all.
